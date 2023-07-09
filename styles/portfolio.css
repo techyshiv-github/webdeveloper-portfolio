@@ -1,20 +1,26 @@
 /* Universal Reset Style */
+:root{
+    font-size: 62.5%;
+}
 *{
     margin: 0px;
     padding:0px;
+
 }
+
 /* Common Shared Style */
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
 }
 .nav-container{
     display: flex;
     justify-content: space-around;
-    padding: 50px 0px;
+    padding:5rem 0rem;
 }
 .logo{
 color: #181818;
-font-size: 45px;
+font-size: 4.5rem;
 font-style: normal;
 font-weight: 800;
 }
@@ -26,24 +32,24 @@ main{
 }
 .menu{
     display: flex;
-    gap: 50px;
+    gap: 5rem;
     align-items: center;
 
 }
 .menu li{
     list-style: none;
     color: #474747;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 400;
 
 }
 .btn-primary{
 color: #FFF;
-font-size: 20px;
+font-size: 2rem;
 font-weight: 700;
 background-color: #FD6E0A;
-padding: 18px 36px;
-border-radius: 5px;
+padding: 1.8rem 3.6rem;
+border-radius: 0.5rem;
 border-style: none;
 cursor: pointer;
 }
