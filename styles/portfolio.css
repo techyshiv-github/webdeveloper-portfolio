@@ -43,6 +43,10 @@ main{
     font-weight: 400;
 
 }
+.menu a{
+    text-decoration: none;
+    color: #474747;
+}
 .btn-primary{
 color: #FFF;
 font-size: 2rem;
