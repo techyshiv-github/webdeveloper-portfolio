@@ -13,10 +13,22 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
 }
+.btn-primary{
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 700;
+    background-color: #FD6E0A;
+    padding: 1.8rem 3.6rem;
+    border-radius: 0.5rem;
+    border-style: none;
+    cursor: pointer;
+    }
+/* Header nav styles */
 .nav-container{
     display: flex;
-    justify-content: space-around;
-    padding:5rem 0rem;
+    justify-content: space-between;
+   
+    padding:5rem 6rem;
 }
 .logo{
 color: #181818;
@@ -47,13 +59,25 @@ main{
     text-decoration: none;
     color: #474747;
 }
-.btn-primary{
-color: #FFF;
-font-size: 2rem;
-font-weight: 700;
-background-color: #FD6E0A;
-padding: 1.8rem 3.6rem;
-border-radius: 0.5rem;
-border-style: none;
-cursor: pointer;
+
+.header{
+    background-color: #FFF8F3;
+}
+/* Hero-Banner Section Styles */
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero-left-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    width: 40%;
+}
+.hero-right-content{
+    width: 40%;
+}
+.cv-buttons{
+    margin-right: 10rem;
 }
